@@ -1,0 +1,43 @@
+*{
+    margin: 10px;
+}
+header{
+    background-image: url('../Media/background.jpg');
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 1500px;
+}
+header > p{
+    text-align: right;
+    color: white;
+    padding-top: 140px;
+    padding-left: 700px;
+    font-weight: bolder;
+    font-size: 60px;
+    width: 700px;
+
+}
+button{
+    padding: 5px 15px;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+
+figcaption{
+    margin-top: -10px;
+    font-size: small;
+}
+
+.container{
+    flex-direction: row;
+    width: 80vw;
+}
+h1{
+    text-align: center;
+}
+div > .container{
+    display: flex;
+    gap: 20px;
+}
